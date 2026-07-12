@@ -58,7 +58,7 @@ export default function Portfolio() {
           id="work"
           label="// SELECTED WORK"
           title="Things I've shipped"
-          description="Two systems, two very different stakes — one moves inventory and money, the other handles patient care."
+          description=""
         >
           <div className="flex flex-col gap-6">
             {projects.map((proj, idx) => (

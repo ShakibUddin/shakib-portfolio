@@ -129,4 +129,30 @@ export const projects = [
     ],
     stack: ["Next.js", "Tailwind CSS", "DaisyUI", "MongoDB", "Zustand"],
   },
+  {
+    title: "On-Demand Services Marketplace Platform",
+    problem:
+      "A service booking platform connecting customers with service providers for tasks such as AC cleaning, furniture moving, house shifting, and other home/office services. Built with separate user, service provider, and admin portals.",
+    link: null,
+    badge: "private / NDA",
+    points: [
+      "Developed user and admin portals with a strong focus on delivering a smooth, intuitive experience matching Figma designs pixel-perfectly.",
+      "Implemented complex state management workflows using Zustand and React Query for efficient data fetching, caching, and synchronization.",
+      "Built responsive and accessible interfaces optimized across desktop, tablet, and mobile devices.",
+      "Created reusable UI components and maintained consistent design patterns using Tailwind CSS and Flowbite.",
+      "Improved code quality and development workflow by enforcing standards with ESLint and Husky pre-commit hooks.",
+      "Collaborated on service booking workflows, ensuring reliable user interactions across different service categories and operational flows.",
+    ],
+    stack: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Flowbite",
+      "React Query",
+      "Zustand",
+      "ESLint",
+      "Husky",
+    ],
+  },
 ];
