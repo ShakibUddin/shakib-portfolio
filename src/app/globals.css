@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+/* -----------------------------------
+   FORCED DARK MODE
+----------------------------------- */
+:root,
+html {
+  /* Backgrounds */
+  --background: #18181b;
+  --surface: #1f2937;
+
+  /* Text */
+  --text: #f1f5f9;
+  --text-muted: #cbd5e1;
+
+  /* Brand */
+  --primary: #24fb85;
+  --secondary: #13aa57;
+  --accent: #76f8b0;
+}
+
+/* -----------------------------------
+   Tailwind Theme Mapping
+----------------------------------- */
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* -----------------------------------
+   Base Global Styles
+----------------------------------- */
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-sans), sans-serif;
+}
+
+.profile-picture-border-shadow {
+  box-shadow: var(--color-primary) 1px 10px 100px;
+}
