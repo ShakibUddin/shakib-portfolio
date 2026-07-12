@@ -14,7 +14,15 @@ const frontend = [
   "CSS3",
 ];
 
-const backend = ["C#", ".NET", "PostgreSQL", "Docker", "REST APIs"];
+const backend = [
+  "Node.js",
+  "Express",
+  "C#",
+  ".NET",
+  "PostgreSQL",
+  "Docker",
+  "REST APIs",
+];
 
 const engineering = [
   "Git",
